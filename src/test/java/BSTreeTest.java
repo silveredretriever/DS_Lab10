@@ -78,7 +78,6 @@ class BSTreeTest {
 		assertEquals(7, tree1.getSize());
 		// Check that largest is 27
 		assertEquals(27, tree1.largest().intValue());
-		
 		//lets go deeper
 		tree1.insert(30);
 		tree1.insert(40);
